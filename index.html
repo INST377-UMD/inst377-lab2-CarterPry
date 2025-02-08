@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body{
+            background-color: burlywood;
+            font-family: Arial, sans-serif;
+        }
+        div{
+            margin-bottom: 4px;
+        }
+        label{
+            font-size: 18px;
+        }
+        button{
+            background-color: red;
+            color: white;
+            margin-top: 5px;
+        }
+        button:hover{
+            background-color: maroon;
+        }
+    </style>
+</head>
+<body>
+    <h1>INST327 - Lab 2 - Contact Form</h1>
+    <form action="thankyou.html" method="POST">
+        <label for="name">Name:</label>
+        <div><input type="text" id="name" name="name" placeholder="Enter your name" required></div>
+        <br>
+        <label for="email">Email:</label>
+        <div><input type="email" id="email" name="email" placeholder="Enter your email" required></div>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
